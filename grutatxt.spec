@@ -11,9 +11,6 @@ License:        GPLv2
 BuildArch:	noarch
 Provides:	%{oname} = %{EVRD}
 
-Requires:       perl
-
-
 %description
 Grutatxt is a plain text to HTML (and other formats) converter.
 It successfully converts subtle text markup to lists, bold, italics, 
