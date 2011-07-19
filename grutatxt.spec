@@ -32,7 +32,8 @@ perl Makefile.PL INSTALLDIRS=vendor
 install -p -m644 %{name}.1 -D %{buildroot}%{_mandir}/man1/%{name}.1
 
 %files 
-%doc AUTHORS Changelog.1 README RELEASE_NOTES TODO doc/grutatxt_apache_handlers.txt doc/grutatxt_markup.txt
+%doc AUTHORS Changelog.1 README RELEASE_NOTES TODO
+%doc doc/grutatxt_apache_handlers.txt doc/grutatxt_markup.txt
 %{_bindir}/%{name}
 %{_bindir}/pod2%{name}
 %{perl_vendorlib}/%{oname}.pm
