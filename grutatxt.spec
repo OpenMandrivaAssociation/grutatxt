@@ -19,7 +19,6 @@ LaTeX markup without having to write unreadable source text files.
 Grutatxt is a Perl module and a command line utility, 
 and is the main text renderer in the Gruta CMS.
 
-
 %prep 
 %setup -q -n %{oname}-%{version}
 
