@@ -10,6 +10,7 @@ Group:          Text tools
 License:        GPLv2
 BuildArch:	noarch
 Provides:	%{oname} = %{EVRD}
+buildrequires:	perl-devel
 
 %description
 Grutatxt is a plain text to HTML (and other formats) converter.
@@ -38,3 +39,20 @@ install -p -m644 %{name}.1 -D %{buildroot}%{_mandir}/man1/%{name}.1
 %{perl_vendorlib}/%{oname}.pm
 %{_mandir}/man1/*.1*
 %{_mandir}/man3/*.3*
+
+
+%changelog
+* Tue Jul 19 2011 Per Øyvind Karlsen <peroyvind@mandriva.org> 2.0.16-1
++ Revision: 690619
+- drop obsolete %%mkrel
+- split %%doc into two lines
+- use INSTALLDIRS=vendor to get everything installed in the right locations
+  fix %%files
+- drop redundant perl dependency, auto dep generator will generate it
+- prefer lower case naming of package
+
+  + Johnny A. Solbu <solbu@mandriva.org>
+    - Initial mandriva release
+    - Spec cleanup
+    - import Grutatxt
+
