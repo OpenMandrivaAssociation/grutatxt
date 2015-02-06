@@ -3,7 +3,7 @@
 Name:           grutatxt
 Summary:        Text to HTML converter
 Version:        2.0.16
-Release:	1
+Release:	2
 Source0:        http://triptico.com/download/%{oname}-%{version}.tar.gz
 URL:            http://www.triptico.com/software/grutatxt.html
 Group:          Text tools
