@@ -5,7 +5,7 @@ Summary:        Text to HTML converter
 Version:        2.0.16
 Release:	2
 Source0:        http://triptico.com/download/%{oname}-%{version}.tar.gz
-URL:            http://www.triptico.com/software/grutatxt.html
+URL:            https://www.triptico.com/software/grutatxt.html
 Group:          Text tools
 License:        GPLv2
 BuildArch:	noarch
