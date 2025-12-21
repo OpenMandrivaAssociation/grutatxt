@@ -10,6 +10,7 @@ Group:          Text tools
 License:        GPLv2
 BuildArch:	noarch
 Provides:	%{oname} = %{EVRD}
+BuildRequires:	make
 buildrequires:	perl-devel
 
 %description
